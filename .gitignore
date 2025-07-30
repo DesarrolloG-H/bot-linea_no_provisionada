@@ -1,0 +1,15 @@
+./venv
+./pycache
+# Ignorar directorios __pycache__
+__pycache__/
+# Python virtual environment
+venv/
+# Ignorar archivos de bytecode de Python
+*.py[cod]
+#Ignorar archivos .log
+log/*.log
+#Ignorar archivos .xlsx
+assets/**/**/*.xlsx
+assets/**/**/*.png
+#Ignorar archivo .env
+.env

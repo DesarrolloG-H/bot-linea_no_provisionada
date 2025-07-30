@@ -1,0 +1,9 @@
+requests
+pandas
+python-dotenv
+openpyxl
+matplotlib
+xlsxwriter
+dataframe-image
+pillow
+psutil
