@@ -5,13 +5,14 @@ from components.email import conectar_a_outlook, enviar_correo_con_adjunto,obten
 from utils.config import TORRES, DESTINATARIOS, CC_DESTINATARIOS
 from utils.email_body import cuerpo_post
 from dotenv import load_dotenv
+from pathlib import Path
 import os
 
 # Cargar variables desde el archivo .env
 load_dotenv()
 
 # CARPETAS
-excel_folder = os.path.abspath(r".\assets")
+excel_folder = Path(os.path.abspath(r".\assets"))
 excel_folder.mkdir(parents=True, exist_ok=True)
 
 # URL de la API
